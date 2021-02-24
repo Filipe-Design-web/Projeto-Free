@@ -1,0 +1,269 @@
+/*Estilos gerais*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.btn{
+    border: 3px solid #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding: 10px 20px;
+}
+
+.call{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.call .btn:hover{
+    color: #000000;
+    border-color: #000000;
+}
+
+/*Header*/
+
+.header{
+    z-index: 10;
+    width: 100%;
+    background-color: #B4B8F5;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+}
+
+.header-menu{
+    text-align: right;
+}
+
+.header-menu ul li{
+    display: inline-block;
+    padding: 20px 0 15px 20px;
+}
+
+.header-menu ul li a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-menu ul li a:hover{
+    color: #ffffff;
+}
+
+/*Introducao*/
+
+.introducao-home{
+    width: 100%;
+    height: 400px;
+    margin-top: 90px;
+    background: url(/img/bg-header.png) no-repeat center;
+    background-size: cover;
+}
+
+.introducao-home h1{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-top: 100px;
+}
+
+
+.introducao-home p{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.introducao-home p:before, .introducao-home p:after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    display: block;
+    background-color: #ffffff;
+    margin: 12px auto 10px auto;
+}
+
+
+/*Historia*/
+
+.historia{
+    margin-top: 60px;
+}
+
+.historia h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+.historia h2:after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    display: block;
+    background-color: #000000;
+    margin: 8px auto 0 auto;
+}
+
+
+.historia-card p{
+    position: relative;
+    top: 21px;
+    right: -40px;
+    margin-top: 40px;
+    padding: 30px 30px 30px 30px;
+    background-color: #B4B8F5;
+    height: 257px;
+}
+
+.img-historia{
+    margin-top: 40px;
+}
+
+/*Portfolio*/
+
+.portfolio-bg{
+
+    margin-top: 60px;
+    padding-bottom: 40px;
+    width: 100%;
+    background-color: #000000;
+}
+
+
+.portfolio-bg .call .btn{
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.portfolio-bg .call .btn:hover{
+    color: #0A3E7C;
+    border-color: #0A3E7C;
+}
+
+.portfolio-bg h2{
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.portfolio-bg h2:after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    display: block;
+    background-color: #ffffff;
+    margin: 8px auto 0 auto;
+}
+
+.portfolio{
+    padding-top: 40px;
+}
+
+.portfolio .grid-16{
+    padding-top: 20px;
+}
+
+
+/*Call back curso*/
+
+.call-back-curso{
+    width: 100%;
+    background-color: #0A3E7C;
+    padding-bottom: 40px;
+}
+
+.call-back-curso h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+
+.call-compra{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.btn-compra{
+    background-color: #FF6200;
+    border-radius: 8px;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.call-back-curso p{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.contato{
+    margin-top: 60px;
+}
+
+.contato h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.contato p{
+    font-size: 14px;
+    text-align: center;
+}
+.contato ul{
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contato ul li{
+    padding: 10px;
+    display: inline-block;
+}
+
+/*FOoter*/
+
+
+.footer{
+    width: 100%;
+    background-color: #0A3E7C;
+    padding: 20px;
+}
+
+.footer p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

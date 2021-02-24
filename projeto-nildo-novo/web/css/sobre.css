@@ -1,0 +1,289 @@
+
+/*Estilo Geral*/
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.divisor{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(156, 146, 146);
+}
+
+
+.btn{
+    width: 380px;
+    height: 60px;
+    padding: 20px 71px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #FF6200;
+}
+
+.btn-hover:hover{
+    color: #FF6200;
+    background-color: #000;
+    transition: all 0.5s;
+}
+
+
+/*Header - Menu*/
+
+.header{
+    width: 100%;
+    background-color: #B4B8F5;
+    padding: 17px;
+}
+
+
+.nav-menu{
+    text-align: right;
+}
+
+
+
+.lista-menu li{
+    display: inline-block;
+    padding-top: 22px;
+    padding-left: 30px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.lista-menu li:hover{
+    color: #fff;
+}
+
+.menu-ativo{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+
+
+/*Introducao + video*/
+
+.introducao-curso{
+    text-align: center;
+    background-color: #0A3E7C;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.introducao-curso h1{
+    font-size: 36px;
+    line-height: 40px;
+
+    max-width: 500px;
+
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+
+.introducao-video{
+    padding-top: 40px;
+}
+
+.introducao-video p{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.introducao-video iframe{
+    margin-bottom: 40px;
+}
+
+.preco{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.desconto-top{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    color: #D8C4C4;
+}
+
+/*Apresentacao instrutor*/
+
+
+
+.apresentacao-instrutor{
+    margin-top: 60px;
+}
+.apresentacao-instrutor h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0A3E7C;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.apresentacao-instrutor p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+.instrutora{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+/*depoimentos*/
+
+.depoimentos{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.depoimentos h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #FF6200;
+}
+
+.depoimentos img{
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.depoimentos p{
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    max-width: 280px;
+    height: 45px;
+    line-height: 20px;
+}
+
+
+.divisor-diferente{
+    margin-top: 100px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(156, 146, 146);
+}
+
+/*Sobre curso*/
+
+.sobre-curso{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.sobre-curso h2{
+    font-size: 24px;
+    color: #0A3E7C;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.modulos{
+    margin-top: 40px;
+}
+
+.modulos h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.modulos ul{
+    list-style-type: disc;
+    padding-top: 20px;
+}
+
+.modulos ul li{
+    padding-bottom: 10px;
+}
+
+/*Quebra*/
+.quebra{
+    width: 100%;
+    background-color: #0A3E7C;
+    text-align: center;
+    color: #fff;
+}
+
+.quebra h2{
+    font-size: 36px;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.desconto{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    color: #D8C4C4;
+}
+
+
+/*Redes sociais*/
+
+.redes-sociais{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.redes-sociais h2{
+    font-size: 36px;
+    color: #0A3E7C;
+    font-weight: bold;
+
+}
+
+.redes-sociais p{
+    clear: both;
+    color: #0A3E7C;
+    padding-top: 10px;
+}
+
+.redes-sociais ul li{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 5px;   
+}
+
+
+
+
+/*Footer*/
+.footer{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-color: #0A3E7C;
+    padding: 20px;
+}
+
+.footer p{
+    text-align: center;
+}
+
